@@ -1,6 +1,6 @@
 FROM hashicorp/terraform
 
-ENV TF_VERSION=0.11.13-mesosphere
+ENV TF_VERSION=0.11.14-mesosphere
 ENV TF_DOCS_VERSION=0.6.0
 
 RUN apk add --update --no-cache openjdk8-jre
